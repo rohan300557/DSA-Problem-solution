@@ -38,15 +38,42 @@
 #         print(b)
 
 
+## Q4: Reverse a given string using recursion?
 
-def reverse(s):
-    if len(s)==0:
-        return s
-    else:
-        return reverse(s[1:])+s[0]
+# def reverse(s):
+#     if len(s)==0:
+#         return s
+#     else:
+#         # print(s[1:]+s[0])
+#         return reverse(s[1:])+s[0]
 
-s = 'abcd'
-reverse(s)
+# s = input("Enter String: ")
+# print(reverse(s))
 
 
+## Q5: Check if a string contains only digits?
+
+# s=input("Enter String: ")
+# print(s.isdigit())
+
+## Other Way: 
+# try: 
+    # s = int(s) 
+    # print('Yes')
+# except: 
+    # print('False')
+
+
+## Q7: Count a number of vowel and consonants in a given string?
+
+# s = input("Enter String:")
+# count_v=0
+# count_c=0
+# v='aeiousAEIOUS'
+# for a in s:
+#     if a in v:
+#         count_v+=1
+#     else:
+#         count_c+=1
+# print('No of vowels in String are:'+str(count_v)+'  No. of consonants in String are: '+ str(count_c))   
 
